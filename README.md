@@ -65,3 +65,13 @@ Código Produto Preço Unitário (R$)
 103 Hambúrguer R$ 15,00
 104 Cheeseburger R$ 13,50
 05 Refrigerante R$ 4,50
+
+-----------------------------------------------------------------------
+Exercícios 23/11
+
+1 - Crie um algoritmo que solicite um número, e faça o cálculo fatorial do mesmo, exiba o resultado na tela. (Utilizando decremento)
+OBS: Fatorial é a multiplicação do número por seus antecessores   maiores ou iguais a 1 (Ex: fatorial de 5 = 5x4x3x2x1 => 120)
+
+DESAFIO:
+Desenvolva um script com front e back end, onde o usuário escolhe um número (do 1 ao 10) e na tela apareça a tabuada calculada escolhida. Detalhe: o campo de escolha deve ser do tipo “select” e as opções dos números devem ser dinâmicas através de um “for” dentro do select. Ou seja nesse exercício, deve-se misturar o PHP com o HTML, tomem cuidado e lembrem-se das aberturas das Tags necessárias.
+
