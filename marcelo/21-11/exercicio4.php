@@ -11,17 +11,15 @@
     <form action="">
         <input type="number" placeholder="numero 1" id="num1">
         <input type="number" placeholder="numero 2" id="num2">
-        <input type="number" placeholder="numero 3" id="num3">
-        <button onclick="ordenar()" type="submit">ordenar</button>
+        <button onclick="calcular()" type="submit">ordenar</button>
     </form>
 
     <script>
-        function ordenar() {
+        function calcular() {
             let numero1 = document.getElementById('num1').value;
             let numero2 = document.getElementById('num2').value;
-            let numero3 = document.getElementById('num3').value;
 
-            window.open(`resolucao3.php?num1=${numero1}&&num2=${numero2}&&num3=${numero3}`);
+            window.open(`resolucao3.php?num1=${numero1}&&num2=${numero2}`);
         }                                               
     </script>
 
@@ -29,4 +27,4 @@
 
 </html>
 
-<!-- 3 - Faça um script em PHP que leia três números inteiros e mostre eles na ordem crescente. -->
+<!-- 4 - Desenvolva um script calculadora com os 4 operadores somar, subtrair, dividir e multiplicar. -->
