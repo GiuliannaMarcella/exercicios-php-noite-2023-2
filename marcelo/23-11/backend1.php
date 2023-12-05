@@ -13,4 +13,4 @@ while ($i > 1) {
 echo $calc;
 
 
-?>
+?>w
