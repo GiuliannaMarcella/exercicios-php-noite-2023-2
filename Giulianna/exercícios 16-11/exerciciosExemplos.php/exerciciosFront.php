@@ -8,23 +8,21 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
         <input type="number" placeholder="Numero 1" id="num1">
         <input type="number" placeholder="Numero 2" id="num2">
-
         <button onclick="soma()" type="submit">Calcular</button>
     </form>
 
     <script>
         function soma() {
-            let num1 = document.getElementById('num1');
-            let num2 = document.getElementById('num2');
+            var num1 = document.getElementById ('num1').value;
+            var num2 = document.getElementById ('num2').value;
+            window.open(`exerciciosBack.php?num1=${num1}&&num2=${num2}`)
 
-            window.open(`exercicioback.php?num1=${num1}&&num2=${num2}`);
 
         }
     </script>
-
 </body>
 
 </html>
